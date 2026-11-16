@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 36" width="1000" height="36" role="presentation">
+  <defs>
+    <clipPath id="cut"><rect x="0" y="0" width="0" height="36"><animate attributeName="width" from="0" to="1040" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  </defs>
+  <line x1="0" y1="18" x2="1000" y2="18" stroke="#8b949e" stroke-opacity=".45" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="0" y1="18" x2="1000" y2="18" stroke="url(#g)" stroke-width="2" stroke-dasharray="8 8" clip-path="url(#cut)"/>
+  <g fill="none" stroke="#8b949e" stroke-width="2.2" stroke-linecap="round">
+    <g>
+      <line x1="-12" y1="-5" x2="14" y2="5"/><circle cx="-17" cy="-7" r="5"/>
+      <animateTransform attributeName="transform" type="rotate" values="-16;4;-16" dur=".7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <line x1="-12" y1="5" x2="14" y2="-5"/><circle cx="-17" cy="7" r="5"/>
+      <animateTransform attributeName="transform" type="rotate" values="16;-4;16" dur=".7s" repeatCount="indefinite"/>
+    </g>
+    <animateMotion dur="9s" repeatCount="indefinite" path="M -14 18 L 1026 18"/>
+  </g>
+</svg>
